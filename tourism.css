@@ -1,0 +1,134 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 100px;
+    background-image: -webkit-linear-gradient(grey,white,grey);
+    
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    
+  }
+  
+  .logo img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color:gainsboro;
+    margin-top: 0px;
+    width: auto;
+    height: 70px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 500px;
+    border:1px black solid;
+    border-radius: 5px;
+  }
+  
+  .search-bar input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+.nav{
+    width: 100%;
+    padding: 30px 0;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+}
+.nav .log ,h1{
+    color: rgba(0, 0, 0, 0.877);
+}
+ ul{
+    display: flex;
+    list-style: none;
+}
+ li{
+    margin: 30px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 17px;
+}
+ul.active::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: orangered;
+    display: flex;
+    position: fixed;
+    margin-left: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#f{
+    color: blue;
+    text-decoration: underline;
+}
+#a{
+    width: auto;
+    text-align:left;
+    color:rgba(194, 16, 75, 0.884);
+
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color: black;
+    margin-left: -50px;
+    
+}
+h3{
+    font-size: 25px;
+    margin-left: -50px;
+}
+ #a{
+     width:300px;
+     height: 300px;
+     float: left;
+     margin-left: 100px;
+
+}
+#b{
+    width: auto;
+    margin-bottom: 400px;
+    margin-right: 20px;
+}
+#g{
+    width:auto;
+    height:auto ;
+    margin-block-end: 50px;
+}
